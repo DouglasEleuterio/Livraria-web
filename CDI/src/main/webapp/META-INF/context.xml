@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<!-- disables storage of session across restarts -->
+	<Manager pathname="" />
+	<Resource name="BeanManager" auth="Container"
+		type="javax.enterprise.inject.spi.BeanManager" factory="org.jboss.weld.resources.ManagerObjectFactory" />
+</Context>
+
+
+<!--  Estamos pegando o serviço que é implementado pelos servidores WildFly e Jboss e importando para o Tomcat. -->
